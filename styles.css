@@ -1,1 +1,55 @@
 /*  your css code here. If applicable */
+/* Main Card Container */
+.card {
+    width: 300px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+/* Card Image */
+.card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+/* Card Title */
+.card-title {
+    font-size: 24px;
+    margin: 20px 0 10px;
+}
+
+/* Card Price */
+.card-price {
+    font-size: 20px;
+    color: #4caf50;
+    margin: 10px 0;
+}
+
+/* Card Description */
+.card-description {
+    font-size: 16px;
+    color: #777;
+    margin: 10px 0 20px;
+}
+
+/* Buy Now Button */
+.card-button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.card-button:hover {
+    background-color: #45a049;
+}
+
